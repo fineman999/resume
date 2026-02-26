@@ -1,0 +1,31 @@
+.backToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-md);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+  z-index: 100;
+}
+
+.backToTop:hover {
+  opacity: 0.85;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .backToTop {
+    bottom: 1rem;
+    right: 1rem;
+  }
+}

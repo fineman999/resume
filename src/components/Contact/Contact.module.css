@@ -1,0 +1,37 @@
+.contact {
+  padding: var(--section-gap) 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.label {
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  min-width: 70px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.link {
+  color: var(--color-primary);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.text {
+  color: var(--color-text);
+}
